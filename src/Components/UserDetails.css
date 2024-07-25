@@ -1,0 +1,60 @@
+.user-details {
+    margin-top: 70px;
+  }
+  
+  .admin-subtitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .admin-subtitle button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .admin-subtitle button:hover {
+    background-color: #45a049;
+  }
+  
+  .user-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  hr {
+    margin: 20px 0;
+  }
+  
+  .delete-all-users {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .user-list {
+    list-style-type: none; /* Remove default list bullets */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .user-list-item {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f0f0f0; /* Light grey background */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  .user-list-item:hover {
+    background-color: #e0e0e0; /* Slightly darker grey on hover */
+  }
+  
